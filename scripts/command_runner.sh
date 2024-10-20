@@ -12,3 +12,8 @@ python3 -m poetry lock # Заполнение poetry.lock
 # Запуск
 docker-compose up --build -d
 # docker kill $(docker ps -a -q)
+
+# Удалять мусор
+# sudo find . -name '__pycache__' -type d -exec rm -rf {} +
+
+# Миграции
