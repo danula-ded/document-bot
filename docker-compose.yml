@@ -15,7 +15,7 @@ services:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "postgres"
 
-  consumer:
+  web:
     build: .
     command: scripts/startup.sh
     volumes:

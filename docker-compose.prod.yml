@@ -1,6 +1,6 @@
 version: '3.8'
 
-services:
+# services:
 #  db:
 #    image: postgres:13.2
 #    ports:
@@ -19,9 +19,9 @@ services:
 #    networks:
 #      - "sirius"
 
-  web:
-    build: .
-    command: python async_temp.py
+# web:
+#   build: .
+#   command: python async_temp.py
 #    volumes:
 #      - "./:/code"
 
